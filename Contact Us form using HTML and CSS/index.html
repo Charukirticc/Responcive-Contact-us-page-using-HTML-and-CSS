@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="" class="form">
+        <h2 class="heading">Contact Us</h2>
+        <div class="form-content">
+         <div class="field">
+            <div class="control">
+              <input type="text" placeholder="Enter your name" />
+              <ion-icon name="person"></ion-icon>
+            </div>
+            <div class="control">
+              <input type="email" placeholder="Enter your email" />
+              <ion-icon name="mail"></ion-icon>
+            </div>
+           </div>  
+            <!-- field2 -->
+            <div class="field">
+             <div class="control">
+              <input type="url" placeholder="Website" />
+              <ion-icon name="globe"></ion-icon>
+             </div>
+
+              <div class="control">
+                 <input type="tel" placeholder="Enter your phone number" />
+                 <ion-icon name="call"></ion-icon>
+              </div>
+          
+            </div>
+            
+            <div class="textarea">
+                <textarea name="user-query" id="" placeholder="Enter your message"></textarea>
+                <ion-icon name="chatbubble-ellipses"></ion-icon>
+            </div>
+           
+            <div class="buttons">
+                <div class="g-recaptcha" data-sitekey="6LeFUBgcAAAAALihCS3DqBLRvVfR-qOsAxR6wrfQ"></div>
+                <input type="submit" value="Submit Your query">
+            </div>
+          
+          </div>
+        </div>
+        </div>
+      </form>
+    </div>
+    <script src="https://www.google.com/recaptcha/api.js" async ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
